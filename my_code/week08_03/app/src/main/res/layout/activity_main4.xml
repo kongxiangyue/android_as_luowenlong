@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textSize="35sp"
+        android:id="@+id/my_text" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/centerRadioGroup"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" >
+
+        <RadioButton
+            android:text="Left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioLeft"
+            android:checked="true"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Above"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioAbove"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioRight"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="Below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioBelow"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+
+</RelativeLayout>

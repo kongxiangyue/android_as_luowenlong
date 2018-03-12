@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="40dp高"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="40sp"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="始终占满剩下的屏幕"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="1"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:text="50dp高"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_red_light"
+        android:layout_height="50dp"
+        android:textSize="50sp"
+        android:id="@+id/textView5" />
+</LinearLayout>
