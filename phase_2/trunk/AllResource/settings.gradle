@@ -1,0 +1,1 @@
+include ':app', ':myapplication', ':res03', ':res04', ':res08', ':res09'

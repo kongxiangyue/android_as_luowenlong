@@ -1,0 +1,1 @@
+include ':app', ':bitmap', ':frameanima', ':tweenanima', ':mediaplayer', ':surfaceview', ':mycamera'

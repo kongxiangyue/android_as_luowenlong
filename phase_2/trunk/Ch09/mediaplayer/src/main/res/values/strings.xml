@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MediaPlayer</string>
+
+    <string name="play_state">播放状态：</string>
+    <string name="state_prepare">播放准备中</string>
+    <string name="state_playing">播放中</string>
+    <string name="state_pause">暂停中</string>
+    <string name="state_stop">结束播放</string>
+    <string name="state_error">播放出现错误</string>
+
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">结束</string>
+    <string name="restart">重播</string>
+
+
+
+
+
+</resources>

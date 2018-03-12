@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="@dimen/activity_horizontal_margin"
+    >
+
+    <TextView
+        android:text="0.0"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="right|center"
+        android:padding="4dp"
+        android:textSize="@dimen/num_result_text_size"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:id="@+id/textView" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <Button android:layout_height="@dimen/num_btn_width"
+    android:layout_width="@dimen/num_btn_width"
+            android:layout_margin="@dimen/btn_margin"
+    android:id="@+id/button1"
+    android:text="1"
+            android:textSize="@dimen/num_btn_text_size"
+    android:background="@color/colorNumBtn" />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button2"
+    android:text="2" android:textSize="@dimen/num_btn_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorNumBtn" />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button3"
+    android:text="3" android:textSize="@dimen/num_btn_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorNumBtn" />
+<Button android:layout_height="@dimen/num_btn_width"
+    android:layout_width="@dimen/num_btn_width"
+    android:id="@+id/button4"
+    android:text="+"
+    android:textSize="@dimen/operation_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorOperaBtn" />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button5"
+    android:text="4" android:textSize="@dimen/num_btn_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorNumBtn"
+    />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button6"
+    android:text="5" android:textSize="@dimen/num_btn_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorNumBtn"
+    />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button7"
+    android:text="6" android:textSize="@dimen/num_btn_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorNumBtn"
+    />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button8"
+    android:text="-" android:textSize="@dimen/operation_text_size"
+    android:layout_margin="@dimen/btn_margin"
+    android:background="@color/colorOperaBtn"
+    />
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button9"
+    android:text="7" android:layout_margin="@dimen/btn_margin" android:textSize="@dimen/num_btn_text_size"
+    android:background="@color/colorNumBtn"/>
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button10"
+    android:text="8" android:layout_margin="@dimen/btn_margin" android:textSize="@dimen/num_btn_text_size"
+    android:background="@color/colorNumBtn"/>
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button11" android:textSize="@dimen/num_btn_text_size"
+    android:text="9" android:layout_margin="@dimen/btn_margin" android:background="@color/colorNumBtn"/>
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button12"
+    android:text="*" android:background="@color/colorOperaBtn" android:layout_margin="@dimen/btn_margin" android:textSize="@dimen/operation_text_size"/>
+<Button android:layout_height="@dimen/num_btn_width"
+    android:layout_columnWeight="2"
+    android:layout_width="@dimen/num_btn_width"
+    android:id="@+id/button13"
+    android:layout_gravity="fill_horizontal"
+    android:text="0" android:textSize="@dimen/num_btn_text_size"
+    android:layout_columnSpan="2" android:layout_margin="@dimen/btn_margin" android:background="@color/colorNumBtn"/>
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button14"
+    android:text="." android:layout_margin="@dimen/btn_margin" android:background="@color/colorNumBtn" android:textSize="@dimen/num_btn_text_size"/>
+<Button android:layout_height="@dimen/num_btn_width" android:layout_width="@dimen/num_btn_width" android:id="@+id/button15"
+    android:text="/" android:layout_margin="@dimen/btn_margin" android:background="@color/colorOperaBtn" android:textSize="@dimen/operation_text_size"/>
+
+        <Button android:layout_height="@dimen/num_btn_width"
+            android:layout_width="@dimen/num_btn_width"
+            android:id="@+id/button16"
+            android:text="back"
+            android:layout_margin="@dimen/btn_margin"
+            android:background="@color/colorOperaBtn"
+            android:textSize="@dimen/operation_text_size"
+            />
+
+
+        <Button android:layout_height="@dimen/num_btn_width"
+            android:layout_width="match_parent"
+            android:id="@+id/button17"
+            android:layout_columnSpan="3"
+            android:layout_gravity="fill_horizontal"
+            android:text="=" android:layout_margin="@dimen/btn_margin"
+            android:background="@color/colorOperaBtn"
+            android:textSize="@dimen/operation_text_size"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

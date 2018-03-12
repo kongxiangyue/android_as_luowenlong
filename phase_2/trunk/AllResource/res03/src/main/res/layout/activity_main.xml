@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app0.com.res03.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:text="我是普通图片背景"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="@drawable/green1"
+        android:layout_margin="5px"
+        android:id="@+id/button"
+        />
+
+    <Button
+        android:text="我是9-patch图片背景（按键宽度和高度固定）"
+        android:layout_width="450px"
+        android:layout_height="150px"
+        android:layout_margin="5px"
+        android:background="@drawable/green"
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="我是9-Patch图片背景（单击会变色）"
+        android:background="@drawable/button_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+</LinearLayout>

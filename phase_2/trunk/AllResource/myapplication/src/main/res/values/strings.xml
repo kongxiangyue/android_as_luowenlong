@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="colorTx1">赤</string>
+    <string name="colorTx2">橙</string>
+    <string name="colorTx3">黄</string>
+    <string name="colorTx4">绿</string>
+    <string name="colorTx5">青</string>
+    <string name="colorTx6">蓝</string>
+    <string name="colorTx7">紫</string>
+</resources>

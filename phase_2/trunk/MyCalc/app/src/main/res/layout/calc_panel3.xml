@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        style="@style/ResultEdit"
+        android:id="@+id/textView2" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:layout_gravity="center_horizontal">
+
+        <Button android:id="@+id/button1"      android:onClick="btnClick"   android:text="@string/num1"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button2"      android:onClick="btnClick"   android:text="@string/num2"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button3"      android:onClick="btnClick"   android:text="@string/num3"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/opera_plus"   android:onClick="operaClick" android:text="@string/opera_plus"   style="@style/OperBtnStyle" ></Button>
+        <Button android:id="@+id/button4"      android:onClick="btnClick"   android:text="@string/num4"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button5"      android:onClick="btnClick"   android:text="@string/num5"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button6"      android:onClick="btnClick"   android:text="@string/num6"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/opera_minus"  android:onClick="operaClick" android:text="@string/opera_minus"  style="@style/OperBtnStyle" ></Button>
+        <Button android:id="@+id/button7"      android:onClick="btnClick"   android:text="@string/num7"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button8"      android:onClick="btnClick"   android:text="@string/num8"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/button9"      android:onClick="btnClick"   android:text="@string/num9"      style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/opera_multi"  android:onClick="operaClick" android:text="@string/opera_multi"  style="@style/OperBtnStyle" ></Button>
+        <Button android:id="@+id/button0"      android:onClick="btnClick"   android:text="@string/num0"      style="@style/NumBtnStyle" android:layout_columnSpan="2" android:layout_gravity="fill_horizontal"/>
+        <Button android:id="@+id/buttonP"      android:onClick="btnClick"   android:text="@string/num_point" style="@style/NumBtnStyle"/>
+        <Button android:id="@+id/opera_divide" android:onClick="operaClick" android:text="@string/opera_divide" style="@style/OperBtnStyle" ></Button>
+        <Button android:id="@+id/opera_back"   android:onClick="operaClick" android:text="@string/opera_back"   style="@style/OperBtnStyle" ></Button>
+        <Button android:id="@+id/opera_equal"  android:onClick="operaClick" android:text="@string/opera_equal"  style="@style/OperBtnStyle" android:layout_columnSpan="3" android:layout_gravity="fill_horizontal"></Button>
+
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
