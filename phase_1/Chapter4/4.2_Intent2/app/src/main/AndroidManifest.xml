@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intent2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <!--主要activity-->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CustomActivity" >
+            <!--意图过滤器-->
+            <intent-filter>
+                <!--查看数据action，结合data标签http是看网页-->
+                <action android:name="android.intent.action.VIEW" />
+                <!--自定义的action注册-->
+                <action android:name="com.example.intent2.LAUNCH" />
+                <!--如果要使用com.example.intent2.LAUNCH启动，必须加入这个category.DEFAULT-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--响应的文件/数据类型-->
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
